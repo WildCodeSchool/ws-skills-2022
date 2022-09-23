@@ -15,11 +15,11 @@
 
 ### Un exemple personnel commenté ❌ / ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/AxelCabanat/wildbook)
 
-Description :
+Description : Projet réalisé sur les 2 premières semaines de la formation Développeur Web Avancée
 
 ### Utilisation en production si applicable❌ / ✔️
 

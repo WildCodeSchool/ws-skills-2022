@@ -46,6 +46,7 @@ Dans le cadre d'une API, cette dernière interagit avec un autre système (comme
   - Eviter les caractères spéciaux, qui peuvent avoir d'autres significations que celles attendues
   - Utiliser des Forward Slash pour séparer les éléments de notre route
   - Le séparateur de mot doit être le "-" et non "\_" ou une utilisation du camelCase, qui rentrerait en conflit avec le second point évoqué.
+  - Utiliser le camelCase pour les paramètres
   - Ne pas utiliser d'extention de fichier.
 
   Ainsi, si nous voulons accéder à nos utilisateurs, nous enprunteront la route "https://api.monsite.com/users" et pour accéder au prénom de notre 42e utilisateur, nous crérons la route "https://api.monsite.com/users/:userId/first-name" de façon à y accéder par l'URL suivante : "https://api.monsite.com/users/42/first-name"

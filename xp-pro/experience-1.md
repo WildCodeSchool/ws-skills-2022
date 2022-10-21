@@ -6,7 +6,13 @@
 
 1. S'agit il de tes premiers jours dans l'entreprise ? (Si non, précise la date d'entrée)
 
+"05/09/2022 : mise en place des outils de travail avec les autres alternants
+07/09/2022 : Début de la formation de l'entreprise en binôme avec un autre alternant, point quotidien avec le formateur en remote."
+
 2. Décris comment se déroule la communication avec ton tuteur. (fréquence, valeur de l'aide ajoutée)
+
+"Mon tuteur, qui travaille sur le site d'Angoulème, fait fonction de référent technique et de manager. Afin de diversifier les contacts, mon référent technique au cours de la formation interne est un autre développeur (en remote), avec lequel j'échange via slack ou en vocal lors de points quotidiens.
+Lien avec mon tuteur se fait par les mêmes cannaux de façon informelle ou lors de 1to1 mensuels."
 
 3. Décris ta mission actuelle au sein de l'entreprise
 

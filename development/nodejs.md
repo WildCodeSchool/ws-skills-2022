@@ -6,10 +6,13 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- Comment développer en utilisant un système de *livereloading* (`nodemon` par exemple) ❌ / ✔️
+- Comment développer en utilisant un système de _livereloading_ (`nodemon` par exemple) ✔️
+
+"nodemon permet de relancer le server à chaque actualisation du code afin de prendre en compte les modifications apportées. Si le serveur rencontre une erreur dû au code ajouté, il se relancera une fois l'erreur inciminée résolue."
+
 - La connexion de mon application à une base de données avec et sans ORM/ODM (avec `mongodb` puis `mongoose` par exemple) ❌ / ✔️
 - Le développement d'une API REST et GraphQL (avec les packages `express` et `graphql` par exemple) ❌ / ✔️
-- *Bonus : la manipulation des fichiers système avec `fs` et l'utilisation des streams en NodeJS* ❌ / ✔️
+- _Bonus : la manipulation des fichiers système avec `fs` et l'utilisation des streams en NodeJS_ ❌ / ✔️
 
 ## 💻 J'utilise
 

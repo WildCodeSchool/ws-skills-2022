@@ -6,7 +6,7 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- la création d'une image docker ❌ / ✔️
+- la création d'une image docker ✔️
 - l'éxécution d'un container ❌ / ✔️
 - l'orchestration de containers avec docker-compose ❌ / ✔️
 

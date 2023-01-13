@@ -6,9 +6,15 @@
 
 1. S'agit il de tes premiers jours dans l'entreprise ? (Si non, précise la date d'entrée)
 
+   oui
+
 2. Décris comment se déroule la communication avec ton tuteur. (fréquence, valeur de l'aide ajoutée)
 
+   La communication se passe très bien, mon tuteur et toujours à mon écoute et présent pour m'aider en cas de besoin.
+
 3. Décris ta mission actuelle au sein de l'entreprise
+
+   Actuellement, je fais de l'intégration web.
 
 4. Qu'est ce qui a bien fonctionné en terme de communication avec ton équipe ?
 

@@ -13,6 +13,10 @@
 
 ## 💻 Je code en Javascript
 
+function addition(a, b) {
+    return a + b
+}
+
 ### Un exemple de code commenté ❌ / ✔️
 
 ```javascript

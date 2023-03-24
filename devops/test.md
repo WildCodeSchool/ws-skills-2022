@@ -20,7 +20,10 @@
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌✔️
+### Un exemple personnel commenté ✔️
+Ici nous souhaitons tester si notre composant React nous rend bien un élément contenant "se connecter".
+
+Dans le fichier test Login.test.tsx de notre composant :
 ```'javascript'
 import { render, screen } from "@testing-library/react"; // 
 import Login  from "./Login";
@@ -28,7 +31,7 @@ import { MockedProvider } from "@apollo/client/testing";
 import { BrowserRouter } from "react-router-dom"
 
 describe('Login', () => {
-    it.only('renders a button', () => {
+    it('renders a button', () => {
         render(
             <BrowserRouter>
                 <MockedProvider mocks={[]} addTypename={false}>
@@ -40,18 +43,94 @@ describe('Login', () => {
     });
 });
 ```
+render permet de déclarer le composant que nous allons tester
+screen nous permet de faire des requêtes dans le rendu
+getByText nous permet de faire une requête pour voir quel élément contient le text dans la regexp entre parenthèses
+toBeIntheDocument est là pour annoncer qu'on souhaite que le text soit dans ce composant
+
+Dans le fichier Login.tsx de notre composant :
+
+```'javascript'
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { useLazyQuery } from "@apollo/client";
+import { LOGIN } from "../services/auth.query";
+// import { format } from "path";
+
+function Login() {
+    const [form, setForm] = useState({
+        email: "",
+        password: "",
+    });
+    const navigate = useNavigate();
+    const [error, setError] = useState('')
+    const [login, { loading }] = useLazyQuery(LOGIN, {
+    onCompleted(data: any) {
+        localStorage.setItem("token", data.login.token);
+            if (!data.login.success) {
+            return setError(data.login.message)
+        }
+        navigate("/home");
+    },
+    onError(error: any) {
+     setError(error.message);
+    },
+    });
+
+    const handleSubmit = (e: any) => {
+        e.preventDefault();
+        login({
+            variables: {
+                loginInput: {
+                    email: form.email,
+                    password: form.password,
+                },
+            },
+        });
+    };
+    const handleChange = (e: any) => {
+        console.log(e);
+        setForm((form) => ({ ...form, [e.target.name]: e.target.value }));
+    };
+
+    return (
+    <div>
+        <h1>Login</h1>
+        <form onSubmit={handleSubmit}>
+            <input
+                placeholder="email"
+                value={form.email}
+                name={"email"}
+                onChange={handleChange}
+            />
+            <input
+                placeholder="password"
+                value={form.password}
+                name={"password"}
+                onChange={handleChange}
+            />
+            <button disabled={loading}>Se connecter</button>
+            {error && <p>{error}</p>}
+        </form>
+
+        <Link to={"/auth/register"}>Pas encore inscrit?</Link>
+    </div>
+    );
+}
+```
+Dans le composant nous pouvons voir notre bouton avec le texte "Se connecter"
 
 ### Utilisation dans un projet ❌ / ✔️
 
-[lien github](...)
+[lien github](https://github.com/WildCodeSchool/2022-11-turing-FindSpots)
 
 Description :
 
 ### Utilisation en production si applicable❌ / ✔️
 
-[lien du projet](...)
+[[lien du projet](...)](https://github.com/WildCodeSchool/2022-11-turing-FindSpots)
 
-Description :
+Description : Findspot est un cityguide qui permet à l'utilisateur de visiter des villes et leurs points d'intérêts. En tant qu'utilisateur et selon ses droits on peut ajouter des points d'interêts. 
 
 ### Utilisation en environement professionnel ❌ / ✔️
 

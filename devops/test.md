@@ -10,7 +10,7 @@
 - 
 - les mocks ✔️ Les mocks sont utilisés lors des tests unitaires. Ils permettent de simuler des données d'entrée, ils sont utilisés pour tester le comportement des composants de manière isolée.
 - 
-- les tests d'integration ✔️ Les tests d'intégration se trouvent à cheval entre les tests unitaires et les tests de bout en bout. Le but des tests d'intégration est de voir si une fois les unités testées et approuvées séparément fonctionnent toujours lorsqu'on les intègre ensemble.
+- les tests d'integration ✔️ Les tests d'intégration se trouvent à cheval entre les tests unitaires et les tests de bout en bout. Le but des tests d'intégration est de voir si une fois les unités testées et approuvées séparément fonctionnent toujours lorsqu'on les intègre ensemble. C'est un ensemble de tests unitaires.
 - 
 - les tests de bout en bout (end to end) ✔️ Les tests de bout en bout, ou tests fonctionnels permettent de tester notre application en condition réelle. Ce sont des tests qui sont faits par des personnes qui parcourent les fonctionnalités pour voir qu'elles fonctionnent toutes correctement.
 - 

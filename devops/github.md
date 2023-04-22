@@ -14,7 +14,7 @@
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 Voici quelques exemples de commandes github : 
 - 'git init' // initialise un nouveau repository git
 - 'git branch -b nameofthebranch' // créer une nouvelle branche sur notre repository
@@ -25,15 +25,15 @@ Voici quelques exemples de commandes github :
 - 'git pull <remote> <branch>' // nous permet de récupérer le code se trouvant en remote sur une branche spécifique
 - 'git-help' // nous permet de voir les commandes disponibles
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/WildCodeSchool/2022-11-turing-FindSpots)
 
 Description :
 
 ### Utilisation en production si applicable❌ / ✔️
 
-[lien du projet](https://github.com/WildCodeSchool/2022-11-turing-FindSpots)
+[lien du projet](...)
 
 Description :
 

@@ -120,13 +120,13 @@ function Login() {
 ```
 Dans le composant nous pouvons voir notre bouton avec le texte "Se connecter"
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
 [lien github](https://github.com/WildCodeSchool/2022-11-turing-FindSpots)
 
 Description :
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable ✔️
 
 [[lien du projet](...)](https://github.com/WildCodeSchool/2022-11-turing-FindSpots)
 

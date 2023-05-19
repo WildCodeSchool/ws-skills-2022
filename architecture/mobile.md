@@ -6,28 +6,28 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les différences entre les webapps, les applications hybrides et natives ❌ / ✔️
-- le fonctionnement d'une app React Native, ce qui sera en réalité produit et installé sur le téléphone de mes utilisateur·rices, comment le JS arrive à communiquer avec le natif ❌ / ✔️
-- quelles sont les différentes technologies (frameworks) existantes pour développer des apps mobiles ❌ / ✔️
+- les différences entre les webapps, les applications hybrides et natives ✔️
+- le fonctionnement d'une app React Native, ce qui sera en réalité produit et installé sur le téléphone de mes utilisateur·rices, comment le JS arrive à communiquer avec le natif ✔️
+- quelles sont les différentes technologies (frameworks) existantes pour développer des apps mobiles ✔️
 - quels sont les principaux points d'attention entre le développement d'une app mobile ou desktop ❌ / ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ❌
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/WildCodeSchool/2211-wns-neumann-green-gesture)
 
 Description :
 
-### Utilisation en production si applicable ❌ / ✔️
+### Utilisation en production si applicable ❌
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ❌
 
 Description :
 
@@ -40,7 +40,7 @@ Description :
 
 ## 🚧 Je franchis les obstacles
 
-### Point de blocage ❌ / ✔️
+### Point de blocage ❌
 
 Description:
 
@@ -54,6 +54,6 @@ Résolution :
 
 ## 📽️ J'en fais la démonstration
 
-- J'ai ecrit un [tutoriel](...) ❌ / ✔️
-- J'ai ecrit un [article](...) ❌ / ✔️
-- J'ai fait une [présentation](...) ❌ / ✔️
+- J'ai ecrit un [tutoriel](...) ❌
+- J'ai ecrit un [article](...) ❌
+- J'ai fait une [présentation](...) ❌

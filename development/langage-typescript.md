@@ -16,9 +16,9 @@
 ### Un exemple personnel commenté ✔️
 
 ```typescript
-export default function ({ groups }: { groups: Group[] }): GroupWithSills[] {
+export default function ({ groups }: { groups: Group[] }): GroupWithSkills[] {
   // déclaration d'un tableau vide qui ne peut contenir que des tableau de GroupWithSills
-  const array: GroupWithSills[] = [];
+  const array: GroupWithSkills[] = [];
 
   // première boucle sur groups pour récupérer chaque group
   for (let i = 0; i < groups.length; i++) {

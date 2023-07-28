@@ -13,13 +13,13 @@
 
 ### Un exemple personnel commenté ❌ / ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
 [https://github.com/WildCodeSchool/2022-11-turing-FindSpots](...)
 
 Description :
 
-### Utilisation en production si applicable❌ / ✔️
+### Utilisation en production si applicable ✔️
 
 [https://turing2.wns.wilders.dev/auth/login](...)
 

@@ -6,8 +6,8 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- ce que c'est ❌ / ✔️
-- comment deployer une application sur une PaaS ❌ / ✔️
+- ce que c'est ✔️
+- comment deployer une application sur une PaaS ✔️
 
 ## 💻 J'utilise
 

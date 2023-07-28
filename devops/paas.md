@@ -21,9 +21,12 @@ Description :
 
 ### Utilisation en production si applicable ✔️
 
-[https://turing2.wns.wilders.dev/auth/login](...)
+Production [https://turing2.wns.wilders.dev/auth/login](...)
+Preproduction [https://staging.turing2.wns.wilders.dev/auth/login](...)
 
 Description :
+
+Dans ce projet nous avons déployer notre application en deux temps. Nous avons déployer notre application d'abord en preproduction ce qui nous permet de voir qu'à chaque push sur notre branche staging le déploiement en ligne s'est bien passé. Une fois que la preproduction fonctionne comme il faut en mergeant staging sur main un workflow de déploiement se déclanche ce qui met à jour notre production.
 
 ### Utilisation en environement professionnel ❌ / ✔️
 

@@ -100,19 +100,19 @@ services:
       - ./client/src:/app/src
 ```
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
-
-Description :
-
-### Utilisation en production si applicable❌ / ✔️
-
-[lien du projet](...)
+[lien github](https://github.com/WildCodeSchool/2211-wns-neumann-green-gesture)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en production si applicable ✔️
+
+[lien du projet](https://neumann2.wns.wilders.dev/)
+
+Description :
+
+### Utilisation en environement professionnel ❌
 
 Description :
 
@@ -139,5 +139,5 @@ Résolution :
 
 ## 📽️ J'en fais la démonstration
 
-- J'ai ecrit un [tutoriel](...) ❌ / ✔️
-- J'ai fait une [présentation](...) ❌ / ✔️
+- J'ai ecrit un [tutoriel](...) ❌
+- J'ai fait une [présentation](...) ❌

@@ -9,7 +9,7 @@
 - l'intéret de TypeScript dans l'IDE ✔️
 - les types de bases ✔️
 - comment et pourquoi étendre une interface ✔️
-- les classes et les decorators ❌
+- les classes et les decorators ✔️
 
 ## 💻 J'utilise
 
@@ -17,7 +17,7 @@
 
 ```typescript
 export default function ({ groups }: { groups: Group[] }): GroupWithSkills[] {
-  // déclaration d'un tableau vide qui ne peut contenir que des tableau de GroupWithSills
+  // déclaration d'un tableau vide qui ne peut contenir que des tableau de GroupWithSkills
   const array: GroupWithSkills[] = [];
 
   // première boucle sur groups pour récupérer chaque group
@@ -44,13 +44,13 @@ export default function ({ groups }: { groups: Group[] }): GroupWithSkills[] {
 
 ### Utilisation dans un projet ❌
 
-[lien github](...)
+[lien github](https://github.com/WildCodeSchool/2211-wns-neumann-green-gesture)
 
 Description :
 
-### Utilisation en production si applicable❌
+### Utilisation en production si applicable ✔️
 
-[lien du projet](...)
+[lien du projet](https://neumann2.wns.wilders.dev/)
 
 Description :
 

@@ -10,8 +10,8 @@
 - les composants enfants et les _props_ qu'on leur passe ✔️
 - le déclenchement d'instructions en fonction des actions de l'utilisateur ✔️
 - le déclenchement d'instructions en fonction de l'étape du cycle de vie du composant ou du changement de valeur de ses props ✔️
-- l'usage d'un reducer (_useReducer_) pour gérer un état composé dans un composant ❌
-- l'état stocké dans un composant avec un _context provider_ et accessible dans ses descendants via `useContext` ❌
+- l'usage d'un reducer (_useReducer_) pour gérer un état composé dans un composant ✔️
+- l'état stocké dans un composant avec un _context provider_ et accessible dans ses descendants via `useContext` ✔️
 
 ## 💻 J'utilise
 
@@ -74,15 +74,15 @@ const AddWilder = ({ onWilderCreated }: IWilderForm) => {
 export default AddWilder;
 ```
 
-### Utilisation dans un projet ❌
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/WildCodeSchool/2211-wns-neumann-green-gesture)
 
 Description :
 
-### Utilisation en production si applicable❌
+### Utilisation en production si applicable ✔️
 
-[lien du projet](...)
+[lien du projet](https://neumann2.wns.wilders.dev/)
 
 Description :
 

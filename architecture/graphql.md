@@ -8,10 +8,10 @@
 
 - la différence entre REST et GraphQL ✔️
 - les besoins auxquels répond GraphQL ✔️
-- la définition d'un schéma
+- la définition d'un schéma✔️
 - Query ✔️
 - Mutation ✔️
-- Subscription ❌
+- Subscription ✔️
 
 ## 💻 J'utilise
 
@@ -64,9 +64,9 @@ query GetUserById($getUserById: Int!) {
 
 Description :
 
-### Utilisation en production si applicable❌
+### Utilisation en production si applicable ✔️
 
-[lien du projet](...)
+[lien du projet](https://neumann2.wns.wilders.dev/)
 
 Description :
 

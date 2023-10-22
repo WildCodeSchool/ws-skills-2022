@@ -16,9 +16,9 @@
 
 ### Un exemple personnel commenté ❌
 
-### Utilisation dans un projet ❌
+### Utilisation dans un projet ✔️
 
-[lien github](...)
+[lien github](https://github.com/WildCodeSchool/2211-wns-neumann-green-gesture)
 
 Description :
 

@@ -8,28 +8,28 @@
 
 - les tests unitaires ✔️
 - les mocks ✔️
-- les tests d'integration ❌ / ✔️
-- les tests de bout en bout (end to end) ❌ / ✔️
-- le TDD ❌ / ✔️
-- les tests par snapshot ❌ / ✔️
+- les tests d'integration ✔️
+- les tests de bout en bout (end to end) ✔️
+- le TDD ✔️
+- les tests par snapshot ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ❌
 
-### Utilisation dans un projet ❌ / ✔️
+### Utilisation dans un projet ✔️
 
-[lien github](...)
-
-Description :
-
-### Utilisation en production si applicable❌ / ✔️
-
-[lien du projet](...)
+[lien github](https://github.com/WildCodeSchool/2211-wns-neumann-green-gesture)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en production si applicable ✔️
+
+[lien du projet](https://neumann2.wns.wilders.dev/)
+
+Description :
+
+### Utilisation en environement professionnel ❌
 
 Description :
 
@@ -42,7 +42,7 @@ Description :
 
 ## 🚧 Je franchis les obstacles
 
-### Point de blocage ❌ / ✔️
+### Point de blocage ❌
 
 Description:
 
@@ -56,5 +56,5 @@ Résolution :
 
 ## 📽️ J'en fais la démonstration
 
-- J'ai ecrit un [tutoriel](...) ❌ / ✔️
-- J'ai fait une [présentation](...) ❌ / ✔️
+- J'ai ecrit un [tutoriel](...) ❌
+- J'ai fait une [présentation](...) ❌
